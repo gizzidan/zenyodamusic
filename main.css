@@ -453,10 +453,9 @@ a:hover {
     color: #ddd7d2
 }
 
-#m {
+.m {
     background-color: #272727;
-    height: 600px;
-
+    height: 100%;
   }
 
 #m h1 {
