@@ -455,8 +455,9 @@ a:hover {
 
 #m {
     background-color: #272727;
-    padding-top: 50px
-}
+    height: 600px;
+
+  }
 
 #m h1 {
     font-family: Pacifico, cursive
