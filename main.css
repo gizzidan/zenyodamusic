@@ -359,7 +359,7 @@ a:hover {
 
 #particles-js {
     background: 0 0;
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     left: 0;
     z-index: 200
@@ -368,7 +368,7 @@ a:hover {
 .particles-c {
     z-index: 100;
     left: 0;
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background: #272727!important
 }
@@ -434,6 +434,7 @@ a:hover {
     position: relative;
     z-index: 300;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #h h1 {
