@@ -429,7 +429,10 @@ a:hover {
     color: #888
 }
 
-
+.beatstore {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 #h {
     position: relative;
