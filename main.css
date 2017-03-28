@@ -430,15 +430,15 @@ a:hover {
 }
 
 .beatstore {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .stuff {
   padding-bottom: 100px;
 }
 
-.btn-outline-secondary {
+.btn-main{
   padding-left: 10px;
   padding-right: 10px;
 }
