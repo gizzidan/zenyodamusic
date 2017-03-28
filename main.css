@@ -338,7 +338,7 @@ h1 {
 }
 
 body {
-    background-color: #272727
+    background-color: #1b1b1b;
 }
 
 h1 {
@@ -370,7 +370,7 @@ a:hover {
     left: 0;
     height: auto;
     width: 100%;
-    background: #272727!important
+    background: #1b1b1b!important
 }
 
 #nav,
@@ -447,7 +447,7 @@ a:hover {
 #h h1 {
     font-family: "caveat", cursive;
     color: #ffffff;
-    font-size: 70px;
+    font-size: 90px;
     padding: 45px
 }
 
