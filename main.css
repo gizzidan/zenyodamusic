@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Cinzel|VT323');
 .mt,
 .mtb {
     margin-top: 50px
@@ -75,12 +77,6 @@
     src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v9/DPPfSFKxRTXvae2bKDzp5KCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
 }
 
-@font-face {
-    font-family: 'Indie Flower';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6onF5uFdDttMLvmWuJdhhgs.ttf) format('truetype')
-}
 
 @font-face {
     font-family: 'Passion One';
@@ -89,12 +85,7 @@
     src: local('Passion One'), local('PassionOne-Regular'), url(https://fonts.gstatic.com/s/passionone/v6/fY6k21F1QT2c_Oc3HRNDwp0EAVxt0G0biEntp43Qt6E.ttf) format('truetype')
 }
 
-@font-face {
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Righteous'), local('Righteous-Regular'), url(https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
-}
+
 
 .alignleft {
     float: left
@@ -430,21 +421,25 @@ a:hover {
     color: #ddd7d2!important
 }
 
-#h a,
+.socials {
+  text-align: center;
+}
+#h h2 a,
 #h h2 {
     color: #888
 }
 
+
 #h {
     position: relative;
     z-index: 300;
-    padding-top: 150px;
-    height: 70vh
+    padding-top: 100px;
+    height: 50vh
 }
 
 #h h1 {
-    font-family: Pacifico, cursive;
-    color: #B93848;
+    font-family: "caveat", cursive;
+    color: #ffffff;
     font-size: 70px;
     padding: 25px
 }
@@ -470,6 +465,6 @@ a:hover {
 
 #a {
     height: auto;
-    background-color: #fff;
+    background-color: #272727;
     padding: 50px
 }
