@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Caveat|Cinzel|VT323');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 .mt,
 .mtb {
     margin-top: 50px
@@ -70,12 +72,6 @@
     src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype')
 }
 
-@font-face {
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v9/DPPfSFKxRTXvae2bKDzp5KCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
-}
 
 
 @font-face {
@@ -376,7 +372,7 @@ a:hover {
 #nav,
 .twitter-follow-button {
     left: 0;
-    z-index: 400!important
+    z-index: 500!important
 }
 
 #nav {
@@ -438,6 +434,10 @@ a:hover {
   padding-bottom: 100px;
 }
 
+.spacemono {
+  font-family: "Space Mono", monospace !important;
+
+}
 #h {
     position: relative;
     z-index: 400;
@@ -474,4 +474,30 @@ a:hover {
     height: auto;
     background-color: #272727;
     padding: 50px
+}
+
+#mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
+
+.mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+#mce-EMAIL { font-family: "Space Mono", monospace; border: 1px solid white ; color: white; background-color: transparent; padding: .63em 4em .84em 1em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; display: inline-block; margin: 0; } /* Input Styles */
+
+.clear { display: inline-block; } /* positions button horizontally in line with input */
+
+.button {
+  font-family: "Space Mono", monospace;
+  display: inline-block;
+}
+:-webkit-input-placeholder { color: white !important; } /* WebKit browsers */
+:-moz-placeholder { color: white !important; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: white !important; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: white !important; } /* Internet Explorer 10+ */
+
+@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+
+.mc-field-group { display: block; max-width: 100%; }
+#mce-EMAIL { padding: .7em 0 .7em 1em; width: 80%; margin: 0; }
+.clear { display: block; width: 100% }
+.button { width: 100%; margin: .5em 0 0 0; }
+
 }
