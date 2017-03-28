@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Caveat|Cinzel|VT323');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
+
 
 .mt,
 .mtb {
@@ -445,9 +447,9 @@ a:hover {
 }
 
 #h h1 {
-    font-family: "caveat", cursive;
+    font-family: "IM Fell DW Pica", serif;
     color: #ffffff;
-    font-size: 90px;
+    font-size: 80px;
     padding: 45px
 }
 
