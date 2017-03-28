@@ -422,7 +422,7 @@ a:hover {
 }
 
 .beatstore {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
@@ -443,8 +443,8 @@ a:hover {
 #h h1 {
     font-family: "IM Fell DW Pica", serif;
     color: #ffffff;
-    font-size: 80px;
-    padding: 70px 45px 45px 45px;
+    font-size: 70px;
+    padding: 60px 45px 45px 45px;
 }
 
 #h h2 {
@@ -472,7 +472,7 @@ a:hover {
     padding: 50px
 }
 
-#mc_embed_signup { margin-top: -20px; border: none; text-align: center; width: 100%; } /* Signup form container */
+#mc_embed_signup { margin-top: -30px; border: none; text-align: center; width: 100%; } /* Signup form container */
 
 .mc-field-group {
   display: inline-block;  } /* positions input field horizontally */
@@ -481,8 +481,10 @@ a:hover {
 
 .clear { display: inline-block; } /* positions button horizontally in line with input */
 
+.button2 {
+}
 .button {
-  margin-top: -4px;
+  margin-top: -3px;
   font-family: "Space Mono", monospace;
   display: inline-block;
 }
@@ -508,6 +510,6 @@ color: #d5d5d5 !important;
 .mc-field-group { display: block; max-width: 100%; }
 #mce-EMAIL { padding: .7em 0 .7em 1em; width: 50%; margin: 0; }
 .clear { display: block; width: 100% }
-.button { width: 50%; margin: .5em 0 0 0; }
+.button { width: 50%; }
 
 }
